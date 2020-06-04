@@ -1,0 +1,232 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem; /* 12px */
+    font-weight: 400;
+    line-height: 1.4;
+}
+.heading , .subheading {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.fa-upsize {
+    font-size: 36px;
+}
+.fa-large {
+    font-size: 40px;
+}
+.fa-jumbo {
+    font-size: 60px;
+}
+.text-thin {
+    font-weight: 200;
+}
+.center {
+    text-align: center;
+}
+.quarter {
+    width: 24%;
+    padding: 0 8px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.why-col {
+    width: 48%;
+}
+.row-padding {
+    padding: 0 8px;
+}
+.margin-bottom {
+    margin-bottom: 16px!important
+}
+.logo {
+    float: left;
+    padding: 10px 10px 10px 20px;
+}
+.text-logo {
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800;
+}
+.navbar {
+    background-color: #03999e;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } 
+  .navbar-link {
+    padding: 18px;
+    text-align: center;  
+    color: white;  
+  }
+  .navbar-link a {
+    color: white;
+  } 
+  .navbar-menu {
+    display: flex;
+    padding-right: 30px;
+  }
+  .navbar-menu-right {
+    margin-left: auto;
+  } 
+  .navbar-link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar-menu,
+    .navbar {
+      flex-direction: column;
+    }    
+    .navbar-menu {
+      display:none;
+      padding-right: 0px;
+    }    
+    .navbar-menu-right {
+      margin-left:0;
+    }    
+    .navbar-toggle-show {
+      display: flex;
+    }    
+    .navbar-link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+    } 
+    .fa-upsize {
+        font-size: 12px;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .why-col {
+        width: 100%;
+    }
+    .quarter {
+        width: 100%;
+        padding: 0 8px;
+        text-align: center;
+    }
+    .hero-text {
+        height: 30vh !important;
+        width: 80% !important;
+        padding-left: 10px !important;
+    }
+}
+
+header {
+    height: 100vh;
+    background: url("../images/bg-woman.jpg") no-repeat center;     
+    background-size: cover;
+}
+.hero-text {
+    position: absolute;
+    margin-top: 50vh;
+    width: 40%;
+    padding-left: 50px;
+    z-index: 1;
+}
+main {
+    background-color: rgb(135, 228, 228);
+    padding-bottom: 30px;
+} 
+.about-container {
+    padding: 0.01em 16px;
+}
+#why {
+    background-color: teal;
+    color: white;
+}
+.img-rad {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#contact {
+    margin-bottom: 90px;
+}
+.contact-details {
+    font-size: 16px;
+    padding-left: 32px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], textarea {
+    width: 100%; /* Full width */
+    padding: 16px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+} 
+  /* Style the submit button with a specific background color etc */
+    .button {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+    .button:hover {
+    background-color: lightsalmon;
+} 
+    .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px 20px 20px 20px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2rem;
+    background: teal;
+    border-top: 4px solid orange;
+  }
+  footer > div > p {
+    margin: 1.2rem;
+    font-size: 16px;
+  }
+  footer > div > p > a {
+      color: white;
+  } 
+  footer > div > i {
+    vertical-align: middle;
+  }
+  .social {
+      color: white;
+  }
+  .social:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+  
+@media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+}
