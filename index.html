@@ -117,18 +117,18 @@
               <p><i class="fa fa-envelope fa-fw fa-upsize"> </i> Email: mail@youremail.com</p>
               <br>
             </div>
-            <form method=”post” name=”contactform” action="action-page.php">
+            <form name="myform" method="POST" action="action-page.php">
         
-            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="text" id="Name" name="Name" placeholder="Name" required>
 
-            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="email" id="Email" name="Email" placeholder="Email" required>
 
-            <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+            <textarea id="message" name="Message" placeholder="Message" style="height:200px"></textarea>
         
             <button class="button" type="submit">
-                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE 
               </button>
-        
+
             </form>
         </div>
 

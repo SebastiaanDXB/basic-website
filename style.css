@@ -46,6 +46,9 @@ a {
 .margin-bottom {
     margin-bottom: 16px!important
 }
+.margin-top {
+    margin-top: 40px!important
+}
 .logo {
     float: left;
     padding: 10px 10px 10px 20px;
@@ -128,7 +131,7 @@ a {
 
 header {
     height: 100vh;
-    background: url("/images/bg-woman.jpg") no-repeat center;     
+    background: url("../images/bg-woman.jpg") no-repeat center;     
     background-size: cover;
 }
 .hero-text {
